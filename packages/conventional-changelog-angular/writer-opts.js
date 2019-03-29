@@ -41,6 +41,8 @@ function getWriterOpts () {
         commit.type = `Performance Improvements`
       } else if (commit.type === `revert`) {
         commit.type = `Reverts`
+      } else if (commit.type === `deprecated`) {
+        commit.type = `Deprecated`;
       } else if (discard) {
         return
       } else if (commit.type === `docs`) {

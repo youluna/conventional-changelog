@@ -1,6 +1,6 @@
 {
-  "name": "conventional-changelog-angular",
-  "version": "5.0.3",
+  "name": "conventional-changelog-alifd",
+  "version": "1.0.0",
   "description": "conventional-changelog angular preset",
   "main": "index.js",
   "scripts": {
